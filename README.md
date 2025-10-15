@@ -1,36 +1,35 @@
 # 🧭 HanaPath — 청소년을 위한 금융 플랫폼
-<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/021d2825-2888-4902-a4c1-bdef9ce4b65e" />
+<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/350a2bbf-e6bb-4f14-95d3-323ef30b5a11" />
 
 
 ## 1. 기획 배경 
-<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/7ce3ba5d-90f9-49a1-a0e3-14781197dce6" />
+<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/c093488b-595b-4331-beb4-02ffa6b631b8" />
 
 
 ## 2. 주요 기능
-
-<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/1572d45f-4278-4f0a-b891-61214d056cc6" />
+<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/7cd512a2-6f23-44f2-b1b0-e13cfc3dba84" />
 
  <br/>
 
 ## 3. 서비스 아키텍처
-<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/865cb5f5-d50c-4b8e-a22c-8948e2707086" />
+<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/22501e94-7786-4d07-b618-89319bf38cf9" />
 
  <br/>
 
 ## 4. 시스템 아키텍처
-<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/f0de08dd-9aa3-4010-924d-7194998e093c" />
+<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/69433381-070f-4e09-8c2b-500c83147882" />
 
  <br/>
 
 ## 5. 주요 기술
-<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/5553f294-dbf2-4b6d-998a-849bbb5a8273" />
+<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/77bbdedf-c0c6-4344-a743-8b1b846fe3fc" />
 
-<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/3be4e308-eb20-4bc9-8809-ccae51c9d21d" />
+<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/d4ec06d6-1a3a-4ce5-b654-67641c0f19dc" />
 
-<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/47da435b-ddfd-4caa-b32f-83d2bc63d055" />
+<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/f42931e5-addd-4bc7-952e-cdffdb04887e" />
 
 ## 6. 기대효과
-<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/ea1c0bae-8ec2-4fef-83b0-ee31f12bc7d6" />
+<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/46643f6d-df04-42a4-9416-eabf63e9c498" />
 
 
 ## 7. 자기 소개
@@ -39,7 +38,7 @@
 
 | 구분       | 내용                                                                                         | 비고                                                                                                      |
 | :--------: | :------------------------------------------------------------------------------------------: | :-------------------------------------------------------------------------------------------------------: |
-| **이름**       | 전예은                                                                                       |  <img width="120" height="608" alt="image" src="https://github.com/user-attachments/assets/f8a008a3-01a3-430f-90c2-2029d68bae5d" />|
+| **이름**       | 전예은                                                                                       |  <img width="120" height="608" alt="image" src="https://github.com/user-attachments/assets/42389764-eb7e-4814-b9b5-efcc0d070b00" />|
 | **연락처**     | 이메일                                                                                       | b4yen@naver.com                                                                                       |
 | **Skill set** | Language                                                                                     | Java, Javascript, Typescript, C, Python   |
 |               | Framework & Library                                                                          | Spring Boot, React, Django, Next.js, Node.js |
