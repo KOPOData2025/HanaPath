@@ -1,0 +1,24 @@
+FE/node_modules/
+FE/.next/
+FE/.env
+FE/.DS_Store
+FE/public/.DS_Store
+node_modules/
+
+realtime/.env
+realtime/token_cache.json
+realtime/__pycache__
+realtime/token_cache_live.json
+realtime/token_cache_mock.json
+
+# macOS
+.DS_Store
+
+.idea/
+
+# Log files
+debug.log
+*.log
+
+# Python virtual environment
+venv/

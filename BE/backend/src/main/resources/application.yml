@@ -1,0 +1,89 @@
+spring:
+  application:
+    name: backend
+
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: ${GMAIL_USERNAME}
+    password: ${GMAIL_APP_PASSWORD}
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+          ssl:
+            trust: smtp.gmail.com
+
+  datasource:
+    url: jdbc:mysql://${DB_HOST}:${DB_PORT}/${DB_NAME}
+    username: ${DB_USER}
+    password: ${DB_PASSWORD}
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+  data:
+    mongodb:
+      uri: mongodb://${MONGO_USER}:${MONGO_PASSWORD}@${MONGO_HOST}:${MONGO_PORT}/${MONGO_DB}?authSource=admin
+
+    redis:
+      host: ${REDIS_HOST}
+      port: ${REDIS_PORT:6379}
+      password: ${REDIS_PASSWORD}
+      timeout: 2000ms
+      jedis:
+        pool:
+          max-active: 8
+          max-idle: 8
+          min-idle: 0
+          max-wait: -1ms
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
+        dialect: org.hibernate.dialect.MySQLDialect
+
+openai:
+  api:
+    key: ${OPENAI_API_KEY}
+
+jwt:
+  secret: ${JWT_SECRET:hanapath-secret-key-for-jwt-token-generation-this-is-a-very-long-secret-key-to-meet-the-512-bit-requirement}
+  expiration: ${JWT_EXPIRATION:86400000} 
+
+app:
+  python:
+    path: python3
+  chart:
+    script:
+      path: ../../realtime/kis_chart_api.py
+  cache:
+    historical-data:
+      ttl: 12960000  
+    stock-chart:
+      ttl: 12960000  
+  data:
+    initialization:
+      enabled: true   
+      period: 1095  
+    auto-refresh:
+      enabled: true  
+  paths:
+    project-root: ${PROJECT_ROOT_PATH}
+    python-venv: ${PYTHON_VENV_PATH}
+    crawler-dir: ${CRAWLER_DIR_PATH}
+    csv-file: ${CSV_FILE_PATH}
+    json-products: ${JSON_PRODUCTS_PATH}
+    images-base-dir: ${IMAGES_BASE_DIR}
+  urls:
+    frontend: ${FRONTEND_URL}
+    frontend-alt: ${FRONTEND_ALT_URL}
+    python-api: ${PYTHON_API_URL}
+
+smishing:
+  service:
+    url: ${SMISHING_SERVICE_URL}
